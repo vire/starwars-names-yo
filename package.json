@@ -21,7 +21,10 @@
     "url": "https://github.com/vire/starwars-names-yo/issues"
   },
   "homepage": "https://github.com/vire/starwars-names-yo#readme",
-  "dependencies": {},
+  "dependencies": {
+    "@types/lodash": "4.14.58",
+    "lodash": "4.17.4"
+  },
   "devDependencies": {
     "tslint": "4.5.1",
     "tslint-config-standard": "4.0.0",
