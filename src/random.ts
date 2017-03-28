@@ -1,8 +1,8 @@
 import { sampleSize } from 'lodash'
 import { SW_NAMES } from './sw-names'
 
-const getRandomItem = () => {
-  return sampleSize(SW_NAMES, 1)[0]
+const getRandomItem = (count: number = 1) => {
+  return sampleSize(SW_NAMES, count)[0]
 }
 
 export function random(howMany?: number) {
