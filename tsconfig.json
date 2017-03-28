@@ -1,8 +1,21 @@
 {
-    "compilerOptions": {
-        "module": "commonjs",
-        "target": "es5",
-        "noImplicitAny": true,
-        "sourceMap": false
-    }
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es5",
+    "noUnusedLocals": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "noImplicitThis": true,
+    "sourceMap": true,
+    "outDir": "lib",
+    "declaration": true,
+    "declarationDir": "typings",
+    "pretty": true
+  },
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
 }
